@@ -103,4 +103,14 @@ class SmsManage implements SmsManageInterface
         }
     }
 
+    /**
+     * @return mixed|void
+     * @throws \Exception
+     */
+    public function sendAll()
+    {
+        throw new \Exception("not implements");
+    }
+
+
 }
