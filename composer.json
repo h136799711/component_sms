@@ -1,0 +1,36 @@
+{
+  "name": "itboye/component_sms",
+  "description": "tp5. resource api",
+  "type": "project",
+  "license": "MIT",
+  "keywords": [
+    "h136799711"
+  ],
+  "config": {
+    "secure-http": false
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "hebidu",
+      "email": "hebiduhebi@126.com",
+      "role": "developer"
+    }
+  ],
+  "scripts": {
+  },
+  "autoload": {
+    "psr-4": {
+      "by\\component\\sms\\": "src/",
+      "byTest\\component\\sms\\": "test/"
+    }
+  },
+  "require": {
+    "php": ">=5.6 <7.2",
+    "itboye/architecture": "1.0.*",
+    "itboye/component_http": "1.0.*",
+    "qcloudsms/qcloudsms_php": "0.1.*"
+  },
+  "require-dev": {
+  }
+}
