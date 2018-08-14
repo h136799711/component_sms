@@ -15,7 +15,7 @@ class TestSmsHelper
     public function testIndex()
     {
         $data = [
-            'key' => 'd0a80f63a24995a84361604fa2ab14c5',
+            'key' => '',
             'mobile' => '18557515452',
             'tpl_id' => '62520',
             'tpl_value' =>urlencode('#code#=123456')
@@ -28,8 +28,8 @@ class TestSmsHelper
     {
         $data = [
             //测试用
-            'app_id' => '1400036784',
-            'app_key' => '2e803b14a72d6aeab3e8528b14792d96',
+            'app_id' => '',
+            'app_key' => '',
 //            'sms_sign' =>'小鲤智能',
 //            'template_id' => '31528',
 //            'params'=>[
@@ -50,8 +50,8 @@ class TestSmsHelper
             'sign' => '登录验证',
             'template' => 'SMS_8145826',
             'template_params' => '{"customer":"何必都"}',
-            'access_key_id' => 'LTAImSdBCtUdaH8N',
-            'access_key_secret' => 'fu9SHp9zMe37CNsjuBr4rn0Zsk1VWv',
+            'access_key_id' => '',
+            'access_key_secret' => '',
             'region' => 'cn-beijing',
             'end_point_name' => 'cn-beijing',
             'api_uri' => 'dysmsapi.aliyuncs.com',
