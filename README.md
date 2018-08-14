@@ -1,5 +1,13 @@
 # component_sms
 
+
+
+[![Latest Stable Version](https://poser.pugx.org/itboye/component_sms/v/stable)](https://packagist.org/packages/itboye/component_sms)
+[![Total Downloads](https://poser.pugx.org/itboye/component_sms/downloads)](https://packagist.org/packages/itboye/component_sms)
+[![Monthly Downloads](https://poser.pugx.org/itboye/component_sms/d/monthly)](https://packagist.org/packages/itboye/component_sms)
+[![Daily Downloads](https://poser.pugx.org/itboye/component_sms/d/daily)](https://packagist.org/packages/itboye/component_sms)
+[![License](https://poser.pugx.org/itboye/component_sms/license)](https://packagist.org/packages/itboye/component_sms)
+
 1. 短信帮助
 
 ## 简介
