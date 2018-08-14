@@ -43,8 +43,27 @@ class TestSmsHelper
         $result = \by\component\sms\qcloud\QcloudSmsManage::instance()->setData($data)->send();
         var_dump($result);
     }
+
+    public function testAliyun() {
+        $data = [
+            'phone'=>'18557515452',
+            'sign' => '登录验证',
+            'template' => 'SMS_8145826',
+            'template_params' => '{"customer":"何必都"}',
+            'access_key_id' => 'LTAImSdBCtUdaH8N',
+            'access_key_secret' => 'fu9SHp9zMe37CNsjuBr4rn0Zsk1VWv',
+            'region' => 'cn-beijing',
+            'end_point_name' => 'cn-beijing',
+            'api_uri' => 'dysmsapi.aliyuncs.com',
+        ];
+
+        $sms = new \by\component\sms\aliyun\AliyunSmsManage();
+        $resp = $sms->setData($data)->send();
+        var_dump($resp);
+    }
 }
 
 $helper = new TestSmsHelper();
 //$helper->testIndex();
-$helper->testQcloud();
+//$helper->testQcloud();
+$helper->testAliyun();

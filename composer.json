@@ -9,7 +9,7 @@
   "config": {
     "secure-http": false
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "hebidu",
@@ -21,6 +21,7 @@
   },
   "autoload": {
     "psr-4": {
+      "Aliyun\\": "src/aliyun/lib/",
       "by\\component\\sms\\": "src/",
       "byTest\\component\\sms\\": "test/"
     }
