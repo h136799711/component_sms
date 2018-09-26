@@ -28,9 +28,9 @@
   },
   "require": {
     "php": ">=5.6 <7.2",
-    "itboye/architecture": "1.0.*",
     "itboye/component_http": "1.0.*",
-    "qcloudsms/qcloudsms_php": "0.1.*"
+    "qcloudsms/qcloudsms_php": "0.1.*",
+    "dbh/core": "1.0.*"
   },
   "require-dev": {
   }
