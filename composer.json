@@ -1,7 +1,7 @@
 {
   "name": "itboye/component_sms",
-  "description": "tp5. resource api",
-  "type": "project",
+  "description": "sms",
+  "type": "library",
   "license": "MIT",
   "keywords": [
     "h136799711"
