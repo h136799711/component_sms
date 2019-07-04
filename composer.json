@@ -30,7 +30,7 @@
     "php": ">=5.6",
     "itboye/component_http": "1.0.*",
     "qcloudsms/qcloudsms_php": "0.1.*",
-    "dbh/core": "1.0.*"
+    "dbh/core": "1.2.*"
   },
   "require-dev": {
   }
